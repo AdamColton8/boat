@@ -1,0 +1,38 @@
+.ancient-world {
+    min-width: 570px;
+    background-color: #166B7E;
+    margin: 0;
+    overflow: hidden;
+}
+.ancient-world > div {
+    position: relative;
+    width: 570px;
+    height: 345px;
+    padding-top: 100px;
+    background: #80CDC6 url(img/world.svg) 0px 102px no-repeat;
+}
+.clouds {
+    position: absolute;
+    width: 350px;
+    height: 260px;
+    right: 0px;
+    top: 0px;
+    background: url(img/clouds.svg) 0px 0px no-repeat;
+}
+.water {
+    position: absolute;
+    width: 571px;
+    height: 50px;
+    left: 0px;
+    bottom: -5px;
+    background: url(img/water.svg) 0px 0px no-repeat;
+    z-index: 1;
+}
+.ship {
+    position: absolute;
+    width: 115px;
+    height: 115px;
+    left: 20px;
+    bottom: 35px;
+    background: url(img/wooden-ship.svg) 0px 0px no-repeat;
+}
